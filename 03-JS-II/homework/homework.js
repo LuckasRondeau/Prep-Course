@@ -5,6 +5,15 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+  var mayor =0;
+  if (x>y) {
+    mayor=x;
+  } else if(x===y){
+    mayor=x;
+  } else{
+    mayor=y;
+  }
+  return mayor
 }
 
 function mayoriaDeEdad(edad) {
